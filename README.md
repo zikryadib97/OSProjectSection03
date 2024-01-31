@@ -222,16 +222,92 @@ total 32
 Mem:          7.7Gi       1.7Gi       160Mi       1.0Mi       5.9Gi       5.8Gi
 Swap:            0B          0B          0B
 
-8. Run the command **cat /proc/cpuinfo** . ***(1 mark)*** __Fill answer here__.
+8. Run the command **cat /proc/cpuinfo** . ***(1 mark)***
+TLB size        : 2560 4K pages
+clflush size    : 64
+cache_alignment : 64
+address sizes   : 48 bits physical, 48 bits virtual
+power management:
+
 9. Run the command **top** and type **q** to quit. ***(1 mark)*** __Fill answer here__.
-10. Run the command **uname -a**. ***(1 mark)*** __Fill answer here__.
-11. What is the available free memory in the system. ***(1 mark)*** __Fill answer here__.
-12. What is the available disk space mounted on /workspace. ***(1 mark)*** __Fill answer here__.
-13. Name the version and hardware architecture of the linux Virtual environment. ***(1 mark)*** __Fill answer here__.
-14. What is the difference between **ls** vs **ls -asl**. ***(1 mark)*** __Fill answer here__.
-15. What is the TLB size of the Virtual CPU. ***(1 mark)*** __Fill answer here__.
-16. What is the CPU speed of the Virtual CPU. ***(1 mark)*** __Fill answer here__.
-17. What is the top running process that consumes the most CPU cycles. ***(1 mark)*** __Fill answer here__.
+processor       : 0
+vendor_id       : AuthenticAMD
+cpu family      : 25
+model           : 1
+model name      : AMD EPYC 7763 64-Core Processor
+stepping        : 1
+microcode       : 0xffffffff
+cpu MHz         : 3240.437
+cache size      : 512 KB
+physical id     : 0
+siblings        : 2
+core id         : 0
+cpu cores       : 1
+apicid          : 0
+initial apicid  : 0
+fpu             : yes
+fpu_exception   : yes
+cpuid level     : 13
+wp              : yes
+flags           : fpu vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat pse36 clflush mmx fxsr sse sse2 ht syscall nx mmxext fxsr_opt pdpe1gb rdtscp lm constant_tsc rep_good nopl tsc_reliable nonstop_tsc cpuid extd_apicid aperfmperf pni pclmulqdq ssse3 fma cx16 pcid sse4_1 sse4_2 movbe popcnt aes xsave avx f16c rdrand hypervisor lahf_lm cmp_legacy svm cr8_legacy abm sse4a misalignsse 3dnowprefetch osvw topoext invpcid_single vmmcall fsgsbase bmi1 avx2 smep bmi2 erms invpcid rdseed adx smap clflushopt clwb sha_ni xsaveopt xsavec xgetbv1 xsaves clzero xsaveerptr rdpru arat npt nrip_save tsc_scale vmcb_clean flushbyasid decodeassists pausefilter pfthreshold v_vmsave_vmload umip vaes vpclmulqdq rdpid fsrm
+bugs            : sysret_ss_attrs null_seg spectre_v1 spectre_v2 spec_store_bypass srso
+bogomips        : 4890.84
+TLB size        : 2560 4K pages
+clflush size    : 64
+cache_alignment : 64
+address sizes   : 48 bits physical, 48 bits virtual
+power management:
+
+processor       : 1
+vendor_id       : AuthenticAMD
+cpu family      : 25
+model           : 1
+model name      : AMD EPYC 7763 64-Core Processor
+stepping        : 1
+microcode       : 0xffffffff
+cpu MHz         : 3086.544
+cache size      : 512 KB
+physical id     : 0
+siblings        : 2
+core id         : 0
+cpu cores       : 1
+apicid          : 1
+initial apicid  : 1
+fpu             : yes
+fpu_exception   : yes
+cpuid level     : 13
+wp              : yes
+flags           : fpu vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat pse36 clflush mmx fxsr sse sse2 ht syscall nx mmxext fxsr_opt pdpe1gb rdtscp lm constant_tsc rep_good nopl tsc_reliable nonstop_tsc cpuid extd_apicid aperfmperf pni pclmulqdq ssse3 fma cx16 pcid sse4_1 sse4_2 movbe popcnt aes xsave avx f16c rdrand hypervisor lahf_lm cmp_legacy svm cr8_legacy abm sse4a misalignsse 3dnowprefetch osvw topoext invpcid_single vmmcall fsgsbase bmi1 avx2 smep bmi2 erms invpcid rdseed adx smap clflushopt clwb sha_ni xsaveopt xsavec xgetbv1 xsaves clzero xsaveerptr rdpru arat npt nrip_save tsc_scale vmcb_clean flushbyasid decodeassists pausefilter pfthreshold v_vmsave_vmload umip vaes vpclmulqdq rdpid fsrm
+bugs            : sysret_ss_attrs null_seg spectre_v1 spectre_v2 spec_store_bypass srso
+bogomips        : 4890.84
+TLB size        : 2560 4K pages
+top - 14:20:19 up  4:29,  0 users,  load average: 0.16, 0.30, 0.27
+Tasks:  40 total,   1 running,  39 sleeping,   0 stopped,   0 zombie
+top - 14:20:30 up  4:29,  0 users,  load average: 0.13, 0.29, 0.27
+Tasks:  41 total,   1 running,  40 sleeping,   0 stopped,   0 zombie
+%Cpu(s):  2.5 us,  3.4 sy,  0.0 ni, 93.9 id,  0.2 wa,  0.0 hi,  0.0 si,  0.0 st
+MiB Mem :   7930.0 total,    144.0 free,   1974.2 used,   5811.8 buff/cache
+MiB Swap:      0.0 total,      0.0 free,      0.0 used.   5639.3 avail Mem 
+
+10. Run the command **uname -a**. ***(1 mark)***
+Linux codespaces-3b5368 6.2.0-1018-azure #18~22.04.1-Ubuntu SMP Tue Nov 21 19:25:02 UTC 2023 x86_64 x86_64 x86_64 GNU/Linux
+
+11. What is the available free memory in the system. ***(1 mark)***
+160MB
+12. What is the available disk space mounted on /workspace. ***(1 mark)***
+5.8GB
+13. Name the version and hardware architecture of the linux Virtual environment. ***(1 mark)***
+Linux codespaces-3b5368 6.2.0-1018-azure #18~22.04.1-Ubuntu SMP
+
+14. What is the difference between **ls** vs **ls -asl**. ***(1 mark)***
+`ls` lists files and directories in a directory, while `ls -asl` provides a detailed listing, including hidden files, sizes in blocks, and additional information about each file.
+
+15. What is the TLB size of the Virtual CPU. ***(1 mark)***
+2560 4K pages
+16. What is the CPU speed of the Virtual CPU. ***(1 mark)***
+3240.437MHz
+
+17. What is the top running process that consumes the most CPU cycles. ***(1 mark)***
 
 ## Running your own container instance.
 
@@ -348,8 +424,8 @@ docker run --detach -v /workspaces/OSProject/webpage:/usr/local/apache2/htdocs/ 
 ***Questions:***
 
 1. What is the permission of folder /usr/local/apache/htdocs and what user and group owns the folder? . ***(2 mark)*** __Fill answer here__.
-2. What port is the apache web server running. ***(1 mark)***
-3. What port is open for http protocol on the host machine? ***(1 mark)***
+2. What port is the apache web server running. ***(1 mark)*** 80
+3. What port is open for http protocol on the host machine? ***(1 mark)*** 8080
 
 ## What to submit
 
