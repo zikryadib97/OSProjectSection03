@@ -76,13 +76,152 @@ codespace
 
 Look at the TERMINAL tab. Run the following commands and provide the output here. 
 
-1. Run the command **pwd** . ***(1 mark)*** __Fill answer here__.
+1. Run the command **pwd** . ***(1 mark)*** 
+/workspaces/OSProjectSection03
+
 2. Run the command **cat /etc/passwd** . ***(1 mark)*** __Fill answer here__.
-3. Run the command **df** . ***(1 mark)*** __Fill answer here__.
-4. Run the command **du** . ***(1 mark)*** __Fill answer here__.
-5. Run the command **ls** . ***(1 mark)*** __Fill answer here__.
-6. Run the command **ls -asl** . ***(1 mark)*** __Fill answer here__.
-7. Run the command **free -h** . ***(1 mark)*** __Fill answer here__.
+root:x:0:0:root:/root:/bin/bash
+daemon:x:1:1:daemon:/usr/sbin:/usr/sbin/nologin
+bin:x:2:2:bin:/bin:/usr/sbin/nologin
+sys:x:3:3:sys:/dev:/usr/sbin/nologin
+sync:x:4:65534:sync:/bin:/bin/sync
+games:x:5:60:games:/usr/games:/usr/sbin/nologin
+man:x:6:12:man:/var/cache/man:/usr/sbin/nologin
+lp:x:7:7:lp:/var/spool/lpd:/usr/sbin/nologin
+mail:x:8:8:mail:/var/mail:/usr/sbin/nologin
+news:x:9:9:news:/var/spool/news:/usr/sbin/nologin
+uucp:x:10:10:uucp:/var/spool/uucp:/usr/sbin/nologin
+proxy:x:13:13:proxy:/bin:/usr/sbin/nologin
+www-data:x:33:33:www-data:/var/www:/usr/sbin/nologin
+backup:x:34:34:backup:/var/backups:/usr/sbin/nologin
+list:x:38:38:Mailing List Manager:/var/list:/usr/sbin/nologin
+irc:x:39:39:ircd:/var/run/ircd:/usr/sbin/nologin
+gnats:x:41:41:Gnats Bug-Reporting System (admin):/var/lib/gnats:/usr/sbin/nologin
+nobody:x:65534:65534:nobody:/nonexistent:/usr/sbin/nologin
+_apt:x:100:65534::/nonexistent:/usr/sbin/nologin
+systemd-timesync:x:101:101:systemd Time Synchronization,,,:/run/systemd:/usr/sbin/nologin
+systemd-network:x:102:103:systemd Network Management,,,:/run/systemd:/usr/sbin/nologin
+systemd-resolve:x:103:104:systemd Resolver,,,:/run/systemd:/usr/sbin/nologin
+messagebus:x:104:105::/nonexistent:/usr/sbin/nologin
+codespace:x:1000:1000::/home/codespace:/bin/bash
+sshd:x:105:65534::/run/sshd:/usr/sbin/nologin
+
+3. Run the command **df** . ***(1 mark)***
+Filesystem     1K-blocks     Used Available Use% Mounted on
+overlay         32847680 13637084  17516500  44% /
+tmpfs              65536        0     65536   0% /dev
+shm                65536        8     65528   1% /dev/shm
+/dev/root       30298176 23168196   7113596  77% /vscode
+/dev/loop5      32847680 13637084  17516500  44% /workspaces
+/dev/sda1       46127956      344  43752036   1% /tmp
+
+4. Run the command **du** . ***(1 mark)*** 
+1972    ./images
+8       ./.git/logs/refs/heads
+12      ./.git/logs/refs/remotes/origin
+16      ./.git/logs/refs/remotes
+28      ./.git/logs/refs
+36      ./.git/logs
+8       ./.git/info
+4       ./.git/branches
+8       ./.git/refs/heads
+12      ./.git/refs/remotes/origin
+16      ./.git/refs/remotes
+4       ./.git/refs/tags
+32      ./.git/refs
+4       ./.git/lfs/tmp
+8       ./.git/lfs
+8       ./.git/objects/e7
+12      ./.git/objects/37
+8       ./.git/objects/f6
+8       ./.git/objects/fd
+8       ./.git/objects/04
+16      ./.git/objects/62
+12      ./.git/objects/b5
+8       ./.git/objects/cb
+8       ./.git/objects/d8
+8       ./.git/objects/c3
+8       ./.git/objects/47
+8       ./.git/objects/3f
+8       ./.git/objects/1b
+8       ./.git/objects/24
+12      ./.git/objects/1c
+8       ./.git/objects/fa
+12      ./.git/objects/e5
+8       ./.git/objects/0d
+4       ./.git/objects/info
+8       ./.git/objects/0b
+12      ./.git/objects/ff
+8       ./.git/objects/84
+8       ./.git/objects/e9
+12      ./.git/objects/06
+1820    ./.git/objects/pack
+8       ./.git/objects/4b
+8       ./.git/objects/83
+8       ./.git/objects/cd
+12      ./.git/objects/44
+8       ./.git/objects/86
+12      ./.git/objects/64
+8       ./.git/objects/eb
+12      ./.git/objects/17
+8       ./.git/objects/b2
+8       ./.git/objects/01
+8       ./.git/objects/b7
+8       ./.git/objects/7b
+12      ./.git/objects/3d
+8       ./.git/objects/58
+8       ./.git/objects/49
+8       ./.git/objects/b6
+8       ./.git/objects/ab
+12      ./.git/objects/14
+12      ./.git/objects/d2
+12      ./.git/objects/73
+8       ./.git/objects/60
+8       ./.git/objects/96
+12      ./.git/objects/a7
+16      ./.git/objects/fb
+8       ./.git/objects/4f
+12      ./.git/objects/af
+8       ./.git/objects/71
+8       ./.git/objects/a3
+8       ./.git/objects/e3
+12      ./.git/objects/70
+8       ./.git/objects/4a
+8       ./.git/objects/fc
+8       ./.git/objects/fe
+12      ./.git/objects/81
+8       ./.git/objects/52
+8       ./.git/objects/b9
+8       ./.git/objects/c6
+8       ./.git/objects/93
+8       ./.git/objects/91
+12      ./.git/objects/72
+8       ./.git/objects/20
+8       ./.git/objects/a6
+12      ./.git/objects/2e
+8       ./.git/objects/74
+8       ./.git/objects/f2
+2464    ./.git/objects
+64      ./.git/hooks
+2652    ./.git
+4640    .
+
+5. Run the command **ls** . ***(1 mark)***
+README.md  images
+
+6. Run the command **ls -asl** . ***(1 mark)***
+total 32
+ 4 drwxrwxrwx+ 4 codespace root  4096 Jan 31 12:32 .
+ 4 drwxr-xrwx+ 5 codespace root  4096 Jan 31 12:32 ..
+ 4 drwxrwxrwx+ 9 codespace root  4096 Jan 31 12:54 .git
+16 -rw-rw-rw-  1 codespace root 15556 Jan 31 13:02 README.md
+ 4 drwxrwxrwx+ 2 codespace root  4096 Jan 31 12:32 images
+
+7. Run the command **free -h** . ***(1 mark)***
+              total        used        free      shared  buff/cache   available
+Mem:          7.7Gi       1.7Gi       160Mi       1.0Mi       5.9Gi       5.8Gi
+Swap:            0B          0B          0B
+
 8. Run the command **cat /proc/cpuinfo** . ***(1 mark)*** __Fill answer here__.
 9. Run the command **top** and type **q** to quit. ***(1 mark)*** __Fill answer here__.
 10. Run the command **uname -a**. ***(1 mark)*** __Fill answer here__.
