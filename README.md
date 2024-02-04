@@ -25,7 +25,7 @@ Team Mates:
 ***Questions:***
 
 1. What is the link of the fork OSProject in your repository. ***(1 mark)*** https://github.com/zikryadib97/OSProjectSection03
-2. How many files and folders are in this repository. ***(1 mark)*** __Fill answer here__.
+2. How many files and folders are in this repository. ***(1 mark)*** There are 7 files including README.md and one folder that is images folder.
 
 
 ## Exploring github codespaces
@@ -307,7 +307,7 @@ Linux codespaces-3b5368 6.2.0-1018-azure #18~22.04.1-Ubuntu SMP
 16. What is the CPU speed of the Virtual CPU. ***(1 mark)***
 3240.437MHz
 
-17. What is the top running process that consumes the most CPU cycles. ***(1 mark)***
+17. What is the top running process that consumes the most CPU cycles. ***(1 mark)*** id process
 
 ## Running your own container instance.
 
@@ -390,14 +390,14 @@ At the terminal, create a new directory called **myroot**, and run a instance of
 
 ***Questions:***
 
-1. Check the permission of the files created in myroot, what user and group is the files created in docker container on the host virtual machine? . ***(2 mark)*** __Fill answer here__.
+1. Check the permission of the files created in myroot, what user and group is the files created in docker container on the host virtual machine? . ***(2 mark)*** docker
 2. Can you change the permission of the files to user codespace.  You will need this to be able to commit and get points for this question. ***(2 mark)***
 ```bash
 //use sudo and chown
 sudo chown -R codespace:codespace myroot
 
 ```
-*** __Fill answer here__.***
+sudo chown -R codespace:codespace /workspaces/OSProjectSection03/myroot
 
 ## You are on your own, create your own static webpage
 
