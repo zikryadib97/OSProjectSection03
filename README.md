@@ -6,9 +6,8 @@ Section: 3
 
 Team Mates:
 1. Muhamad Zikry Adib bin Mohd Suhaimi and 2112197
-2. __Fill name__ and __matric no__
-3. __Fill name__ and __matric no__
-
+2. WAN MOHAMMAD LUQMANUL HAKIM BIN MAZLELEE and 2111907 
+3. SAFWAN BIN ROSLIN and 2113779
 ## Rules
 1. You are allowed to have **3 group** members. *Exception* is allowed **IFF (if and only if)** you are allowed to have 4 group members if you are a **multinational** or a **multigender** group. 
 2. When you complete the project, make sure to submit the repository link of your cloned project. Make sure all the files are as what you aspect in your repository. 
